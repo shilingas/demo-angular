@@ -1,0 +1,7 @@
+<div *ngIf="status">
+    <ul *ngFor="let item of data">
+        <li> {{item}}</li>
+    </ul>
+</div>
+
+<button id="test" (click)="triggerButtonClick()">target</button>
